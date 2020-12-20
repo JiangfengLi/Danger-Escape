@@ -1,0 +1,62 @@
+body {
+  font-family: "AirbnbCerealBook", sans-serif;
+  font-size: 16px;
+  background-color: #000000;
+  color: white;
+  opacity: 0.8;
+}
+
+.zone-container {
+  box-sizing: border-box;
+  border: 4px solid white;
+  margin: 0.5rem auto;
+  width: 400px;
+  height: 450px;
+  font-size: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.row {
+  display: "flex";
+  line-height: 32px;
+  height: 32px;
+}
+
+.box{
+  height: 40px;
+  width: 40px;
+  border: 1px solid grey;
+  float: left;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.mapTile{
+  height: 40px;
+  width: 40px;
+  float: left;
+  cursor: pointer;
+}
+
+.center {
+  display: flex;
+  justify-content: 'center';
+  align-items: 'center';
+  height:550px;
+}
+
+.manipulate {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.heightTopBTN {
+  bottom: 50px; 
+}
+
+.heightBottomBTN {
+  bottom: 0px; 
+}
